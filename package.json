@@ -39,6 +39,7 @@
     "eslint-config-next": "13.4.2",
     "eslint-plugin-react": "^7.32.2",
     "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
     "next": "13.4.2",
     "prettier": "^2.8.8",
     "react": "18.2.0",
@@ -48,7 +49,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "pre-push": "./.husky/pre-push"
     }
   },
   "lint-staged": {
@@ -56,6 +58,5 @@
       "eslint --cache --fix",
       "prettier --write"
     ]
-  },
-  "packageManager": "yarn@3.5.1"
+  }
 }
