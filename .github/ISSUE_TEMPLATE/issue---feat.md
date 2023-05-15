@@ -19,8 +19,8 @@ Feature 작업 사항을 적어주세요.
 
 ### TODO
 --------------     
-[] work - 1
-[] work - 2
+- [ ] work - 1
+- [ ] work - 2
 
 
 ### Etc
